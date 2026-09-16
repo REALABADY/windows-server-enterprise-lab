@@ -1,7 +1,9 @@
-# Windows Server Enterprise Lab
+# Windows Server Supporting Lab
 
-## Overview
-A hands-on Windows Server lab designed to simulate a small enterprise environment. The lab focuses on core infrastructure services, domain administration, network services, endpoint integration, and access control.
+> Supporting infrastructure lab documenting Windows Server services that complement network engineering environments.
+
+## Role in the Portfolio
+This repository is a supporting lab rather than a separate career direction. Its purpose is to demonstrate Windows Server knowledge that can support networked enterprise environments, domain integration, DHCP/DNS services, access control, and endpoint connectivity.
 
 ## Lab Environment
 - **Virtualization:** VMware
@@ -12,7 +14,7 @@ A hands-on Windows Server lab designed to simulate a small enterprise environmen
 - **Server IP:** `192.168.80.10`
 - **Default Gateway:** `192.168.80.2`
 
-## Implemented Technologies
+## Implemented Services
 
 ### Active Directory Domain Services
 - Installed Active Directory Domain Services (AD DS).
@@ -52,9 +54,18 @@ A hands-on Windows Server lab designed to simulate a small enterprise environmen
 - Tested authorized and unauthorized access using different domain users.
 - Applied restrictions so access could be controlled per department.
 
+## Network Relevance
+The lab demonstrates supporting services commonly encountered alongside enterprise networking, including:
+- DNS and name resolution
+- DHCP and IP address assignment
+- Domain integration
+- User and group administration
+- Group Policy
+- File sharing and access permissions
+- Basic network troubleshooting
+
 ## Validation Tests
 The following were tested successfully:
-
 - Domain Controller connectivity
 - Domain join
 - Domain user sign-in
@@ -64,35 +75,13 @@ The following were tested successfully:
 - Shared folder access
 - NTFS permission restrictions
 
-## Skills Demonstrated
-- Windows Server Administration
-- Active Directory Domain Services
-- User and Group Management
-- Organizational Units
-- Group Policy Management
-- DNS Administration
-- DHCP Configuration
-- Domain Integration
-- File Sharing
-- NTFS and Share Permissions
-- Basic Network Troubleshooting
-- VMware Virtualization
+## Tools
+- VMware
+- Windows Server
+- Windows 11 Pro
 
-## Project Status
-Core Windows Server administration services have been implemented and tested. Advanced topics such as PKI, backup and recovery, multi-server environments, Microsoft Entra ID, Microsoft 365, and Azure integration are intentionally outside the current scope.
-
-## Repository Structure
-```text
-windows-server-enterprise-lab/
-├── README.md
-├── documentation/
-│   ├── active-directory.md
-│   ├── dns.md
-│   ├── dhcp.md
-│   ├── group-policy.md
-│   └── file-permissions.md
-└── screenshots/
-```
+## Scope
+This repository supports the primary Network Engineering portfolio. Advanced topics such as PKI, backup and recovery, multi-server environments, Microsoft Entra ID, Microsoft 365, and Azure integration are outside the current scope.
 
 ## Next Improvements
 - Add screenshots from the actual lab.
@@ -100,4 +89,4 @@ windows-server-enterprise-lab/
 - Expand documentation with configuration and testing evidence.
 
 ---
-Built as a hands-on IT Infrastructure and Windows Server administration lab.
+Supporting Windows Server lab for a Network Engineering-focused portfolio.
