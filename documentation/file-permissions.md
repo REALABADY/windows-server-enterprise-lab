@@ -1,14 +1,31 @@
 # File Sharing and Permissions
 
 ## Objective
-Create department-based file access and test permission restrictions using domain accounts.
+
+Create department-based file access and validate authorization using domain accounts.
 
 ## Implementation
-- Created shared folders.
+
+- Created shared departmental folders.
 - Configured Share Permissions.
 - Configured NTFS Permissions.
-- Added appropriate domain users or groups for access.
-- Restricted unauthorized users from accessing protected folders.
+- Assigned access through appropriate domain users or security groups.
+- Restricted unauthorized access to protected folders.
 
 ## Validation
-Access was tested with different domain users to verify that authorized users could access the required folders while restricted users could not access protected content.
+
+Access was tested with different domain users.
+
+The tests verified that:
+
+- Authorized users could access their required folders.
+- Restricted users could not access protected content.
+
+## Key Concepts
+
+The lab demonstrates the difference between Share Permissions and NTFS Permissions and how they can be combined to control access to network resources.
+
+## Related Documentation
+
+- Active Directory (active-directory.md)
+- Group Policy Management (group-policy.md)
